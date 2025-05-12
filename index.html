@@ -6,25 +6,9 @@
     <title>API Interaction Project</title>
 
 </head>
+
 <body>
-    <h1>JSON API Explorer</h1>
-    
-    <section>
-        <h2>Create New Post</h2>
-        <form id="postForm">
-            <div>
-                <label for="titleInput">Title:</label>
-                <input type="text" id="titleInput" name="title" required>
-            </div>
-            <div>
-                <label for="bodyInput">Body:</label>
-                <textarea id="bodyInput" name="body" rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit Post</button>
-        </form>
-        <div id="formError"></div>
-        <div id="formSuccess"></div>
-    </section>
+    <p id="header">JSON API Explorer</p>
 
     <section>
         <h2>Posts</h2>
@@ -32,6 +16,23 @@
         <div id="error"></div>
         <div id="postList"></div>
     </section>
+
+    <section>
+        <h2>Create New Post</h2>
+        <form id="postForm">
+            <div>
+                <label for="titleInput">Title:</label>
+                <input type="text" id="titleInput" name="title" required>
+            </div> <br />
+            <div>
+                <label for="bodyInput">Body:</label>
+                <textarea id="bodyInput" name="body" rows="4" required></textarea>
+            </div> <br />
+            <button type="submit">Submit Post</button> <br />
+        </form>
+        <div id="formError"></div>
+        <div id="formSuccess"></div>
+    </section> <br/>
 
     <script src="script.js"></script>
 </body>
